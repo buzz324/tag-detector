@@ -3,7 +3,7 @@
 Markup languages such as HTML use tags to highlight sections with special significance. In this way, a sentence 
 in boldface can be indicated thus:
 
-###<B>This is a sentence in boldface</B>
+###<B>###This is a sentence in boldface</B>
 
 Typically every tag has an opening tag of the form <TAG> and a closing tag of the form </TAG>, so that portions 
 of text can be bracketed as above. Tags can then be combined to achieve more than one effect on a particular piece 
