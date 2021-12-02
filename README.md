@@ -2,8 +2,8 @@
 
 Markup languages such as HTML use tags to highlight sections with special significance. In this way, a sentence 
 in boldface can be indicated thus:
-<!-- 
-<B>This is a sentence in boldface</B>
+
+###<B>This is a sentence in boldface</B>
 
 Typically every tag has an opening tag of the form <TAG> and a closing tag of the form </TAG>, so that portions 
 of text can be bracketed as above. Tags can then be combined to achieve more than one effect on a particular piece 
@@ -11,9 +11,9 @@ of text simply by nesting them properly,
 for instance:
 <CENTER><B>This text is centred and in boldface</B></CENTER>
 Two of the most common mistakes when tagging text are:
-[] getting the nesting wrong:
+- getting the nesting wrong:
 <B><CENTER>This should be centred boldface, but the tags are wrongly nested</B></CENTER>
-[] forgetting a tag:
+- forgetting a tag:
 <B><CENTER>This should be centred boldface, but there is a missing tag</CENTER>
 Write a program to check that all the tags in a given piece of text (a paragraph) are correctly nested, and that there 
 are no missing or extra tags. An opening tag for this problem is enclosed by angle brackets, and contains exactly 
@@ -40,4 +40,3 @@ Correctly tagged paragraph
 Expected </C> found </B>
 Expected # found </C>
 Expected </B> found #
- -->
