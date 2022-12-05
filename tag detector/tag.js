@@ -2,7 +2,7 @@ var string ='';
 var stack = [];
 var comment;
 
-
+//no way
   function tag(line) {
 
     //Read a character by character
